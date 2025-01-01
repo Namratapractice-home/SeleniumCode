@@ -27,7 +27,6 @@ public class test1 {
 	public void beforeMethod() {
 		System.out.println("Starting Test On Chrome Browser");
 		WebDriverManager.chromedriver().setup();
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\91976\\Downloads\\chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
 
 	}
