@@ -28,7 +28,6 @@ public class test1 {
 		System.out.println("Starting Test On Chrome Browser");
 		WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
 	}
 	
 	@AfterMethod
