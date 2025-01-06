@@ -27,7 +27,9 @@ public class test1 {
 	public void beforeMethod() {
 		System.out.println("Starting Test On Chrome Browser");
 		WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+       		driver = new ChromeDriver();
 	}
 	
 	@AfterMethod
